@@ -1,0 +1,32 @@
+.wrapper-contact{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    height: 100%;
+    width: 100%;
+    background-color: #EAEAEB;
+    min-width: 960px;
+}
+@media only screen and (max-width: 800px) {
+    .wrapper-contact{
+        min-width: fit-content;
+    }
+}
+
+.add-contact-option{
+    flex-basis: 30%;
+    font-size: 1.5rem;
+      margin: 10px;
+      height: 150px;
+      background-color: #FFFFFF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  @media only screen and (max-width: 800px) {
+    .add-contact-option{
+        flex-basis: 100%;
+    }
+}

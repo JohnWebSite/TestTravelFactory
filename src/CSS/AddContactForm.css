@@ -1,0 +1,50 @@
+.form_add_people{
+    width: 400px;
+    margin: auto;
+    border: 10px grey solid;
+    padding: 1rem;
+    border-image: repeating-linear-gradient(30deg, #4d9f0c, #9198e5, #4d9f0c 20px) 60;
+    border-bottom-right-radius: 30px;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.my_label{
+    font-size: 1rem;
+}
+
+.wrapper_add_person{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+}
+
+.image_add_person{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.image_add_person_image{
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+.image_add_person_image2{
+    min-width: 100%;
+    min-height: 49%;
+    max-height: 49%;
+}
+
+.wrapper-button{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}

@@ -1,0 +1,77 @@
+.card-contact{
+    flex-basis: 30%;
+    margin: 10px;
+    height: 150px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+@media only screen and (max-width: 800px) {
+    .card-contact{
+        flex-basis: 100%;
+    }
+}
+.image-contact-wrapper{
+
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.image-contact{
+    border-radius: 50%;
+    flex-basis: 80%;
+    max-width: 100px;
+    max-height: 120px;
+}
+
+.adress-contact{
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+.option-contact{
+    flex-basis: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.paragraph-contact{
+    margin: 0;
+}
+
+.contact-name{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 0.2rem;
+    text-align: left;
+    color: rgb(116, 128, 138);
+}
+
+.twitter-inc{
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+    text-align: left;
+    color: rgb(116, 128, 138);
+}
+
+.contact-details{
+    font-size: 0.7rem;
+    text-align: left;
+    color: #B0B2B3;
+}
+.job-title{
+    font-size: 0.6rem;
+    color: #B0B2B3;
+    font-weight: bold;
+}
